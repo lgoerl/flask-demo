@@ -1,7 +1,7 @@
 bokeh==0.12.0
 dill==0.2.1
 Flask==0.10.1
-Flask-SockerIO==1.1
+Flask-SocketIO==1.1
 gunicorn==19.3.0
 Jinja2==2.7.2
 matplotlib==1.5.1
