@@ -4,7 +4,6 @@ Flask==0.10.1
 Flask-SocketIO==1.1
 gunicorn==19.3.0
 Jinja2==2.7.2
-numpy==1.11.0
 oauth==1.0.1
 oauthlib==0.7.2
 pandas==0.13.1
