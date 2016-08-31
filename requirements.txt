@@ -1,4 +1,4 @@
-
+bokeh==0.12.1
 dill==0.2.1
 Flask==0.10.1
 Flask-SocketIO==1.1
