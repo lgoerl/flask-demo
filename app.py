@@ -27,7 +27,7 @@ def graph():
 
 	TOOLS="pan,wheel_zoom,box_zoom,reset,save"
 	p = figure(tools=TOOLS,title='Closing Price',plot_width=650, plot_height=650, x_axis_label='date',x_axis_type='datetime',y_axis_label='Closing Price ($)')
-	p.line(x=[str(date) for date in list(to_plot['Date'])],y=list(to_plot['Close']))
+	p.line(x=pd.to_datetime(to_plot['Date']),y=list(to_plot['Close']))
   	script, dif = components(p)
 	return render_template('graph.html',script=script, div=div)
 
